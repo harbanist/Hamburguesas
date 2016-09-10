@@ -13,6 +13,8 @@
 		EA4A9FC71D84651D00B96EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4A9FC61D84651D00B96EDD /* Assets.xcassets */; };
 		EA4A9FCA1D84651D00B96EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4A9FC81D84651D00B96EDD /* LaunchScreen.storyboard */; };
 		EA4A9FD51D84651D00B96EDD /* HamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4A9FD41D84651D00B96EDD /* HamburguesasTests.swift */; };
+		EA4A9FE01D84656E00B96EDD /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4A9FDF1D84656E00B96EDD /* Datos.swift */; };
+		EA4A9FE21D8480D500B96EDD /* ColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4A9FE11D8480D500B96EDD /* ColorStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EA4A9FD01D84651D00B96EDD /* HamburguesasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4A9FD41D84651D00B96EDD /* HamburguesasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasTests.swift; sourceTree = "<group>"; };
 		EA4A9FD61D84651D00B96EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4A9FDF1D84656E00B96EDD /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		EA4A9FE11D8480D500B96EDD /* ColorStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				EA4A9FC61D84651D00B96EDD /* Assets.xcassets */,
 				EA4A9FC81D84651D00B96EDD /* LaunchScreen.storyboard */,
 				EA4A9FCB1D84651D00B96EDD /* Info.plist */,
+				EA4A9FDF1D84656E00B96EDD /* Datos.swift */,
+				EA4A9FE11D8480D500B96EDD /* ColorStruct.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4A9FE21D8480D500B96EDD /* ColorStruct.swift in Sources */,
 				EA4A9FC21D84651D00B96EDD /* ViewController.swift in Sources */,
 				EA4A9FC01D84651D00B96EDD /* AppDelegate.swift in Sources */,
+				EA4A9FE01D84656E00B96EDD /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
